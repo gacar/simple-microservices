@@ -8,10 +8,10 @@ These applications should be started in the following order.
 
 
 ## Testing applications
-Discovery Server is using 8761
-Email service is using 8081
-Sms service is using 8091
-ApiGateway is using 8080
+- Discovery Server is using 8761
+- Email service is using 8081
+- Sms service is using 8091
+- ApiGateway is using 8080
 
 Email service and Sms service are empty services, they are not sending any sms or email
 Each services have one method for displaying routing system.
