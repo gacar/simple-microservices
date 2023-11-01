@@ -5,11 +5,11 @@ spring:
     gateway:
       routes:
         - id: sms-service
-          uri: http://localhost:8091
+          uri: lb://sms-service
           predicates:
             - Path=/sms/**
         - id: email-service
-          uri: http://localhost:8081
+          uri: lb://email-service
           predicates:
             - Path=/email/**
 server:
